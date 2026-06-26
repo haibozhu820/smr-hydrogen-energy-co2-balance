@@ -4,8 +4,6 @@
 
 In diesem Projekt habe ich ein vereinfachtes Excel-Modell für die Wasserstofferzeugung aus Erdgas aufgebaut.
 
-Das Excel-Modell kann über `View raw` heruntergeladen und lokal geöffnet werden.
-
 Betrachtet wird eine Prozesskette aus:
 
 ```text
@@ -179,6 +177,14 @@ Das Modell ist bewusst einfach gehalten. Folgende Punkte werden nicht detaillier
 Wasserdampf wird im Modell als bereits bereitgestellt angenommen. H2O wird nur als Dampf von 100 °C bis 850 °C aufgeheizt.
 
 Die PSA wird über Recovery und spezifischen Strombedarf vereinfacht modelliert. Die H2-Produktverdichtung auf 80 bar wird separat berechnet.
+
+## Dateien
+
+* `smr_prozesskettenanalyse.xlsx`: Excel-Modell mit Eingaben, Berechnungen und Ergebnisblatt. Die Datei kann auf GitHub über `View raw` heruntergeladen und lokal geöffnet werden.
+* `figures/energie_bilanz.png`: Diagramm zur Energiebilanz nach Heizszenario.
+* `figures/co2_bilanz.png`: Diagramm zur CO2(e)-Bilanz nach Versorgungsszenario.
+* `README.md`: kurze Beschreibung des Projekts, der Annahmen, Ergebnisse und Modellgrenzen.
+
 
 ## Datenquellen
 
