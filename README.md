@@ -4,6 +4,8 @@
 
 In diesem Projekt habe ich ein vereinfachtes Excel-Modell für die Wasserstofferzeugung aus Erdgas aufgebaut.
 
+（Das Excel-Modell kann über `View raw` heruntergeladen und lokal geöffnet werden.）
+
 Betrachtet wird eine Prozesskette aus:
 
 ```text
